@@ -340,6 +340,7 @@ plt.title("Portfolio Optimization & Efficient Frontier")
 plt.colorbar(label="Sharpe Ratio")
 plt.legend()
 plt.grid(True)
+plt.savefig("images/efficient_frontier.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
