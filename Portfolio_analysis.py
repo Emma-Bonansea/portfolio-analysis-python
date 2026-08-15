@@ -307,12 +307,15 @@ plt.xlabel("Date")
 plt.ylabel("Base 100")
 plt.grid(True)
 plt.legend()
+plt.savefig("images/portfolio_performance.png", dpi=300, bbox_inches="tight")
 plt.show()
+
 drawdown.plot(figsize=(12,6))
 plt.title("Portfolio Drawdown")
 plt.xlabel("Date")
 plt.ylabel("Drawdown")
 plt.grid(True)
+plt.savefig("images/portfolio_drawdown.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 fig, ax = plt.subplots(figsize=(8,6))
@@ -326,6 +329,7 @@ for i in range(len(correlation_matrix.columns)):
     for j in range (len(correlation_matrix.columns)):
         ax.text(j,i,f"{correlation_matrix.iloc[i,j]:.2f}", ha="center", va="center")
 plt.colorbar(heatmap)
+plt.savefig("images/correlation_matrix.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 plt.figure(figsize=(10, 6))
