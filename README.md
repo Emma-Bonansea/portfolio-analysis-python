@@ -39,6 +39,7 @@ The portfolio's exposure to the market is evaluated using:
 - Beta relative to the S&P 500
 - Alpha relative to the S&P 500
 - Asset correlation matrix
+![Asset Correlation Matrix](images/correlation_matrix.png)
 
 ### Benchmark Comparison
 
@@ -48,7 +49,7 @@ Portfolio performance is compared with:
 - CAC 40
 
 This allows the portfolio's return, volatility and risk-adjusted performance to be assessed relative to major US and French equity markets.
-
+![Portfolio Performance vs Benchmarks](images/portfolio_performance.png)
 ---
 
 ## Portfolio Optimization
@@ -87,6 +88,7 @@ The visualization includes:
 - Minimum volatility portfolio
 - Efficient Frontier
 
+- ![Efficient Frontier](images/efficient_frontier.png)
 ---
 
 ## Results
@@ -99,6 +101,7 @@ The visualization includes:
 | CAGR | 17.23% | 23.78% | 17.57% | 14.19% | 8.08% |
 | Maximum Drawdown | -20.45% | -20.40% | -18.09% | -25.43% | -23.04% |
 
+![Portfolio Drawdown](images/portfolio_drawdown.png)
 ### Optimized Maximum Sharpe Allocation
 
 | Asset | Weight |
